@@ -1,0 +1,31 @@
+:root {
+    /* Colors */
+    --green: (#44FFA1);
+    --purple900: (#24053E);
+    --purple500: (#584D62);
+    --purple100: (#FCF8FF);
+    --white: (#ffffff);
+
+    /* Fonts */
+    --text1: fraunces 144 SemiBold 80px;
+    --text2: fraunces 144 SemiBold 56px;
+    --text3: fraunces 144 SemiBold 32px;
+    --text4: manrope Regular 18px ;
+    --text5: manrope  Bold 18px ;
+}
+
+*{box-sizing: border-box;
+padding:0;
+margin:0;
+}
+
+.header{background-color: var(--purple900);}
+
+.logo-nav{display:flex;
+justify-content: space-between;
+background-color: var(--purple900);
+padding-left: 10%;
+padding-right: 10%;
+font: var(--text5);
+}
+h1{}
