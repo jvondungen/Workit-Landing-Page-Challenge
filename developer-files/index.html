@@ -9,6 +9,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="./styles.css">
   
   <title>Frontend Mentor | Workit landing page</title>
@@ -16,15 +18,21 @@
 <main>
 <body>
 <div class="header">
-  <img src="./assets/images/bg-pattern-3.svg" alt="coil down right">
-  <img src="./assets/images/bg-pattern-2.svg" alt="coil down left">
-<div class="logo-nav">
-  <img src = "./assets/images/logo-light.svg" alt="workit logo-light">
-  <p> Apply for access</p>
+  <div class="logo-nav">
+  <img class="logo" src = "./assets/images/logo-light.svg" alt="workit logo-light">
+  <p class="nav"> Apply for access</p>
 </div>
- <h1>Data tailored to your needs.</h1> 
-<div class="button">Learn more</div>
-<img src="./assets/images/image-hero.webp" alt="iphone">
+<div class="coil-left">
+  <img src="./assets/images/bg-pattern-3.svg" alt="coil left"></div>
+<div class="hero">
+  <div class="frame">
+ <h1>Data <span>tailored</span> to your needs.</h1> 
+<div class="button">Learn more</div></div></div>
+<div class="coil-right">
+  <img src="./assets/images/bg-pattern-2.svg" alt="coil right"></div>
+</div>
+<div class="illustration">
+<img src="./assets/images/image-hero.webp" alt="iphone"></div>
 </div>
 <div class="content">
   <div class="grid">
@@ -54,7 +62,7 @@
  <div class="cta">
   <img src="./assets/images/image-founder.webp" alt="founder photo">
   <div class="cta-card">
-    <img src="./assets/images/bg-pattern-1.svg" alt="coil up right">
+    <img class="coil-bottom" src="./assets/images/bg-pattern-1.svg" alt="coil bottom">
   <h2>Be the first to test</h2>
 
   <p>Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a 

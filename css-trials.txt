@@ -1,0 +1,14 @@
+.header{background-color: var(--purple900);
+  display: grid;  
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+  'logo . nav'
+  'coil-left hero coil-right'
+  ' . iphone . ';
+
+  color:var(--white);
+height:771px;
+width:100vw;
+border-bottom-left-radius: 25%;
+border-bottom-right-radius: 25%;
+}

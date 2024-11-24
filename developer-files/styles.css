@@ -1,17 +1,14 @@
 :root {
     /* Colors */
-    --green: (#44FFA1);
-    --purple900: (#24053E);
-    --purple500: (#584D62);
-    --purple100: (#FCF8FF);
-    --white: (#ffffff);
+    --green: hsl(150, 100%, 63%);
+    --purple900: hsl(273, 85%, 13%);
+    --purple500: hsl(271, 12%, 34%);
+    --purple100: hsl(276, 100%, 99%);
+    --white: hsl(0, 0%, 100%);
 
     /* Fonts */
-    --text1: fraunces 144 SemiBold 80px;
-    --text2: fraunces 144 SemiBold 56px;
-    --text3: fraunces 144 SemiBold 32px;
-    --text4: manrope Regular 18px ;
-    --text5: manrope  Bold 18px ;
+    --text1: Fraunces;
+    --text2: Manrope;
 }
 
 *{box-sizing: border-box;
@@ -19,13 +16,94 @@ padding:0;
 margin:0;
 }
 
-.header{background-color: var(--purple900);}
-
-.logo-nav{display:flex;
-justify-content: space-between;
-background-color: var(--purple900);
-padding-left: 10%;
-padding-right: 10%;
-font: var(--text5);
+body{display:flex;
+flex-direction:column;
+height:100vh;
+width:100vw;
 }
-h1{}
+
+.header{background-color: var(--purple900);
+  display: flex;
+  flex-direction: column;
+  color:var(--white);
+height:771px;
+width:100vw;
+border-bottom-left-radius: 25%;
+border-bottom-right-radius: 25%;
+}
+
+.logo-nav{display: flex;
+    justify-content: space-between;
+background-color: var(--purple900);
+margin-top:0;
+padding-top:56px;
+padding-left: 11%;
+padding-right: 11%;
+
+}
+
+.nav{font-family: var(--text2);
+    font-size:18px;
+font-weight:bold;
+line-height: 150%;
+border-bottom: 2px solid var(--green);
+}
+
+.nav:hover{color:var(--green);
+cursor: pointer;}
+
+.hero{
+    display:flex;
+    
+justify-content:center;
+align-items: center;
+
+}
+
+.coil-left{width:270.29;
+height: 215.1;
+position:absolute;
+top:137.66px;
+}
+.frame{width: 635px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+h1{font-family: var(--text1);
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+span{border-bottom: 2px solid var(--green);}
+span:hover{color:var(--green);
+    cursor: pointer;}
+
+.button{display: inline-block;
+    text-align: center;
+    margin-top:20px;
+    padding:20px;
+    width: 162px;
+    height:56px;
+    background-color: var(--green);
+    color: var(--purple900);
+    font-family: var(--text2);
+    font-weight: bold;
+    font-size: 18px;
+   }
+
+.coil-right{width:141.7px;
+    height:112.71px;
+    position:absolute;
+    top:1313px;
+    right:368.48;
+
+   }
+
+
+.illustration img{position: absolute;
+    top: 400px;
+    left:491px;
+    width:767px;
+height:441px;}
